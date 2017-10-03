@@ -21,9 +21,14 @@ class FaucetForm extends Component {
     }
 
     giveCoins() {
-        let fakeTransaction = "0xb435b34b5b345b2345b345b43b5b342b3434b5";
         let amount = parseInt(this.state.formValues.amount);
         console.log(amount);
+        if (amount > 0) {
+            this.props.coinsCallback(this.state.formValues.userAddress, amount);
+        } else {
+            console.log('The amount is not allowed');
+        }
+    
     }
 
     // handle submit
@@ -47,14 +52,6 @@ class FaucetForm extends Component {
     render(){
         return (
             <form className="centered-form" onSubmit={this.handleSubmit}>
-                <div className="row">
-                    <div className="center">
-                        <h4>{this.state.account.balance}</h4>
-                        <h5 className="grey-text text-lighten-1">Faucet Balance in {this.state.account.currency}</h5>
-                    </div>
-                </div>
-                <hr />
-                
                 <div>
                     <label>
                         Amount of satoshi:

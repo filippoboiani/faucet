@@ -1,0 +1,65 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0
+}
+
+.title-div {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    margin: 0 0 0 0;
+    width: 100%;
+    padding: 20px 40px 40px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.center-margin div {
+    margin: auto;
+}
+
+.submit-button {
+    margin-top: 30px;
+}
+.nice-div {
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.blue-back {
+    color: #ffffff;
+    background-color: #0275d8;
+}
+
+.centered-form {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.vertical-position-60 {
+    top: 50px;
+}
+
+.vertical-position-70 {
+    top: 70px;
+}
+
+.vertical-offset-100 {
+    padding-top: 100px;
+}
+
+.vertical-offset-70 {
+    padding-top: 70px;
+}
+
+.vertical-offset-50 {
+    padding-top: 50px;
+}
+
+.vertical-offset-30 {
+    padding-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+}

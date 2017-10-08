@@ -1,5 +1,6 @@
 # Bitrefill Faucet 
 
+![alt text](https://github.com/filippoboiani/faucet/blob/master/demo.png)
 
 ## How to run it
 

@@ -11,3 +11,8 @@
 2. then run: 
 
     ``` npm start ```
+
+
+## TODO
+
+1. Integrate with lightning network logic 
